@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gadget Galaxy</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="logo">
+    <header class="logo" id="menu">
         <div class="logo">
             <img src="./img/logo.jpg" alt="" width="50" height="50" srcset="">
             <h1>Gadget Galaxy</h1>
@@ -18,11 +19,11 @@
     <section class="menu">
         <div class="menu">
             <ul class="menulist">
-                <li class="menuitem">Home</li>
-                <li class="menuitem">Top Selling</li>
-                <li class="menuitem">Top Rated</li>
-                <li class="menuitem">Newly Arrived</li>
-                <li class="menuitem">Customer Review</li>
+                <li class="menuitem"><a href="#menu">Home</a></li>
+                <li class="menuitem"><a href="#top-sale">Top Selling</a></li>
+                <li class="menuitem"><a href="#top-rate">Top Rated</a></li>
+                <li class="menuitem"><a href="#new-arr">Newly Arrived</a></li>
+                <li class="menuitem"><a href="#custo-rev">Customer Review</a></li>
             </ul>
         </div>
     </section>
@@ -34,7 +35,7 @@
     </section>
     <br>
     <br>
-    <section class="topsell ">
+    <section class="topsell " id="top-sale">
         <h1>TOP SELLING PRODUCTS</h1>
         <div class="Top reveal">
             <ul class="topmenu">
@@ -68,7 +69,7 @@
     </section>
     <br>
     <br>
-    <section class="toprate ">
+    <section class="toprate " id="top-rate">
         <h1>TOP RATED PRODUCT</h1>
         <br>
         <ul class="toprate1 reveal">
@@ -90,7 +91,7 @@
         </ul>
     </section>
     <br><br>
-    <section class="newly">
+    <section class="newly" id="new-arr">
         <h1>NEWLY ARRIVED</h1>
         <br>
         <ul class="newone reveal">
@@ -109,7 +110,7 @@
         </ul>
     </section>
 
-    <section class="custosay ">
+    <section class="custosay" id="custo-rev">
         <h1>CUSTOMER SAYS</h1>
         <br>
         <ul class="reveal">
